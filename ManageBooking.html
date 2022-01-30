@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<title>Wicked_Wheels</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Poison_720">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body style="background-color: #7f5a83; background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);">
+	<header class="first__header">
+		<nav class="navbar navbar-light first__nav">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="home.html">
+		    	<img src="logo_latest1.png" alt="Wicked Wheels logo" class="ww_logo">
+		    </a>
+		    <form class="d-flex firstNav__flex login__tab">
+		      <div><a class="login_link1" href="#Login__page">
+		      	<div>
+		      		<!-- Button trigger modal -->
+		      		<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+		      		  <i class="fas fa-fingerprint fingerprint" title="LOGIN">  Login</i>
+		      		</button>
+
+		      		<!-- Modal -->
+		      		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		      		  <div class="modal-dialog">
+		      		    <div class="modal_content">
+		      		      <div class="modal-header">
+		      		        <h5 class="modal-title login_header_head" id="staticBackdropLabel">Login</h5>
+		      		        <button type="button" class="btn-close close__btn btn-outline-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
+		      		      </div>
+		      		      <div class="modal-body">
+		      		      	<div class="body__login">
+		      		      	  <form>
+		      		      	    <div class="mb-3">
+		      		      	      
+		      		      	      <input type="email" class="form-control login__input" id="exampleInputEmail1" placeholder="Username" aria-describedby="emailHelp">
+		      		      	      
+		      		      	    </div>
+		      		      	    <div class="mb-3">
+		      		      	      
+		      		      	      <input type="password" class="form-control login__input" id="exampleInputPassword1" placeholder="Password">
+		      		      	    </div>
+		      		      	    
+		      		      	    <button type="submit" class="btn"><i class="fas fa-power-off login_btn_icon"></i></button>
+		      		      	  </form>
+		      		      	  </form>
+
+		      		      	</div>
+		      		      </div>
+		      		      <div class="modal-footer">
+		      		      	<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+		      		        	<!-- Button trigger modal -->
+		      		        	<button type="button" class="btn btnn__log" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		      		        	  Register
+		      		        	</button>
+
+		      		        	<!-- Modal -->
+		      		        	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		      		        	  <div class="modal-dialog">
+		      		        	    <div class="modal_content">
+		      		        	      <div class="modal-header">
+		      		        	        <h5 class="modal-title register_header_head" id="exampleModalLabel">Register</h5>
+		      		        	        <button type="button" class="btn-close close__btn btn-outline-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
+		      		        	      </div>
+		      		        	      <div class="body__login">
+		      		        	        <form>
+		      		        	          <!-- 2 column grid layout with text inputs for the first and last names -->
+		      		        	          <div class="row mb-4">
+		      		        	          	
+		      		        	            <div class="col">
+		      		        	              <div class="form-outline">
+		      		        	              	<br>
+		      		        	                <input type="text" id="form6Example1" class="form-control login__input" placeholder="First Name">
+		      		        	              </div>
+		      		        	            </div>
+		      		        	            <div class="col">
+		      		        	              <div class="form-outline">
+		      		        	              	<br>
+		      		        	                <input type="text" id="form6Example2" class="form-control login__input" placeholder="Last Name">
+		      		        	              </div>
+		      		        	            </div>
+		      		        	          </div>
+
+		      		        	          <!-- Text input -->
+		      		        	          <div class="form-outline mb-4">
+		      		        	            <input type="text" id="form6Example4" class="form-control login__input" placeholder="Address">
+		      		        	          </div>
+
+		      		        	          <!-- Email input -->
+		      		        	          <div class="form-outline mb-4">
+		      		        	            <input type="email" id="form6Example5" class="form-control login__input" placeholder="Mail">
+		      		        	          </div>
+
+		      		        	          <!-- Text input -->
+		      		        	          <div class="form-outline">
+		      		        	            <input type="text" id="form6Example4" class="form-control login__input" placeholder="Number">
+		      		        	          </div>
+		      		        	          <br>
+		      		        	        </form>
+		      		        	      </div>
+		      		        	      <div class="modal-footer">
+		      		        	        <button type="submit" class="btn btnn__log">Save changes</button>
+		      		        	      </div>
+		      		        	    </div>
+		      		        	  </div>
+		      		        	</div>
+		      		        </button>
+
+
+
+
+		      		        </button>
+		      		    </div>
+		      		</div>
+		      	</div>
+		      </div>
+		  </div>
+		</a></div>
+		    </form>
+		  </div>
+		</nav>
+	</header>
+	<div class="second__header">
+		<div class="d-flex flex-row-reverse bd-highlight">
+		  <div class="p-2 bd-highlight"><a class="login_link2 " href="about.html">About Us</div>
+		  <div class="p-2 bd-highlight"><a class="login_link2" href="car.html">Cars</div>
+		  	<div class="p-2 bd-highlight"><a class="login_link2" href="#">Offers</div>
+		  		
+		  		<div class="p-2 bd-highlight"><a class="login_link2" href="gallery.html">Gallery</a></div>
+		  <div class="p-2 bd-highlight"><a class="login_link2" href="home.html">Home</div>
+		  <div class="p-2 bd-highlight"><a class="login_link2" href="ManageBooking.html">Manage Booking</div>
+		</div>
+	</div>
+
+	<div class="ManageBooking__head1">MANAGE BOOKING</div>
+
+
+	<div>
+		<form class="container ManageBooking__form">
+
+		  <div class="mb-3 ManageBooking__in">
+		    <input type="text" class="form-control ManageBooking__input_id" id="#" aria-describedby="emailHelp" placeholder="USER ID">
+		  </div>
+		  <div class="mb-3 ManageBooking__in">
+		  	<input type="password" class="form-control ManageBooking__input_pass" id="exampleInputPassword1" placeholder="PASS">
+		  </div>
+		  <div class="mb-3 form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label ManageBooking__chech_label" for="exampleCheck1">Remeber me</label>
+		  </div>
+		  <button type="submit" class="btn btn-bark ManageBooking__submit">My Bookings</button>
+		</form>
+	</div>
+
+
+
+
+
+
+
+	<!-- Footer -->
+	<footer class=" text-center footer_lasy">
+	  <!-- Grid container -->
+	  <div class="container p-4">
+
+	    <!-- Section: Social media -->
+	    <section class="mb-4">
+	      <!-- Facebook -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+	      <!-- Twitter -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+	      <!-- Google -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+	      <!-- Instagram -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+	      <!-- Linkedin -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+	      <!-- Github -->
+	      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+	    </section>
+	    <!-- Section: Social media -->
+
+
+	    <!-- Section: Form -->
+	    <section class="">
+	      <form action="">
+	        <!--Grid row-->
+	        <div class="row d-flex justify-content-center">
+	          <!--Grid column-->
+	          <div class="col-auto">
+	            <p class="pt-2 footer__sign_label">
+	              Sign up for our newsletter
+	            </p>
+	          </div>
+	          <!--Grid column-->
+
+	          <!--Grid column-->
+	          <div class="col-md-5 col-12">
+	            <!-- Email input -->
+	            <div class="form-outline mb-4">
+	              <input type="email " id="form5Example2" class="form-control footer_mail_input" placeholder="E-mail" />
+	          </div>
+	          </div>
+	          <!--Grid column-->
+
+	          <!--Grid column-->
+	          <div class="col-auto">
+
+	            <!-- Submit button -->
+	            <button type="submit" class="btn btn-dark mb-4">
+	              Subscribe
+	            </button>
+	          </div>
+	          <!--Grid column-->
+	        </div>
+	        <!--Grid row-->
+	      </form>
+	    </section>
+	    <!-- Section: Form -->
+
+
+	    <!-- Section: Text -->
+	    <section class="mb-4">
+	      <p class="footer__quote">
+	        A new car does not change your life, but it does change your attitude.
+	      </p>
+	    </section>
+	    <!-- Section: Text -->
+
+
+	  </div>
+	  <!-- Grid container -->
+
+	  <!-- Copyright -->
+	  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+	    © 2020 Copyright:
+	    <a class="text-glast" href="home.html">WickedWheels</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+
+</body>
+</html>
